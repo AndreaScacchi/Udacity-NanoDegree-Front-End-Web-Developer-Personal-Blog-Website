@@ -1,0 +1,76 @@
+body{
+    background-color: #343a40;
+    color: #f8f9fa;
+    font-size: 23px;
+    font-family: italic;
+}
+h1{
+    text-align: center;
+    font-family: serif;
+    color: #ffba08;
+
+}
+h5{
+    color: #ffba08;
+}
+p{
+    font-weight: bold;
+}
+section{
+    text-align: center;
+    font-family: monospace;
+    font-style: normal;
+}
+.container{
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 45vh 45vh;
+    grid-gap: 55px;
+    grid-template-areas: "top top" "bottom";
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    font-size: 23px;
+}
+#one{
+    grid-area: top top;
+}
+#two{
+    grid-area: top top;
+}
+.tech1{
+    text-align: center;
+}
+.card{
+    margin: auto;
+    border: 4px solid #ffba08;
+    width: 200px;
+    height: 30px;
+}
+@media (max-width: 550px){
+    body{
+        background-color: black;
+}
+
+h2, h3, h5{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.container h5{
+    text-align: center;
+    }
+}
