@@ -1,0 +1,18 @@
+nav{
+    background-color: grey;
+    font-size: 15;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.section1{
+    text-align: center;
+    font-family: monospace;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    font-family: serif;
+    color: #ffba08;
+}

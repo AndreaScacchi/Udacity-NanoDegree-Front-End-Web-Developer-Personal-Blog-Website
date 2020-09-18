@@ -1,0 +1,90 @@
+body{
+    background-color: #343a40;
+    color: #f8f9fa;
+    font-size: 23px;
+    font-family: italic;
+}
+
+@import "header.css";
+@import "footer.css";
+a{
+    color: #ffba08;
+}
+h5{
+    color: #ffba08;
+}
+p{
+    font-weight: bold;
+}
+
+button{
+    color: #ffba08;
+}
+.container{
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: 80vh 80vh;
+    grid-gap: 55px;
+    grid-template-areas: "top top";
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    font-size: 23px;
+}
+#one{
+    grid-area: top top;
+}
+#two{
+    grid-area: top top;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+figcaption{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding: 3px;
+    font-style: oblique;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+
+@media (max-width: 550px){
+    body{
+        background-color: black;
+}
+
+h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.container h5{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    }
+
+}

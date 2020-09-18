@@ -1,0 +1,23 @@
+nav{
+    background-color: orange;
+    color: black;
+    font-size: 23;
+    font-style: normal;
+    font-family: serif;
+}
+
+.navbar-brand{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+}
+
+button{
+    color: red;
+}
+
+form{
+    background-color: yellow;
+}
