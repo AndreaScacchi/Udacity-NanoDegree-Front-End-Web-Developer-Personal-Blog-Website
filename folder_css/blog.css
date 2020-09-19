@@ -1,3 +1,6 @@
+@import "header.css";
+@import "footer.css";
+
 body{
     background-color: #343a40;
     color: #f8f9fa;
@@ -5,8 +8,6 @@ body{
     font-family: italic;
 }
 
-@import "header.css";
-@import "footer.css";
 a{
     color: #ffba08;
 }
