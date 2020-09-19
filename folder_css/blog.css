@@ -63,29 +63,32 @@ img{
     height: 250px;
 }
 
-@media (max-width: 550px){
+@media (max-width: 1000px){
     body{
         background-color: black;
 }
 
-h5{
-    text-align: center;
-    font-size: 15px;
+    header{
+        width: 1000px;
+}
+    
+    h5{
+        text-align: center;
+        font-size: 15px;
 }
 
-.container{
-    height: auto;
-    width: auto;
-    justify-content: flex-start;
+    .container{
+        height: auto;
+        width: 700px;
+        justify-content: space-between;
 }
 
-.container h5{
-    text-align: center;
+    .container h5{
+        text-align: center;
 }
 
-img{
-    width: 100px;
-    height: 100px;
+    footer{
+        width: 1000px;
     }
 
 }
