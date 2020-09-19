@@ -34,7 +34,7 @@ a{
     width: 85vw;
     margin: 30px 50px 55px;
     grid-template-columns: 45vw 45vw;
-    grid-template-rows: 55vh 55vh;
+    grid-template-rows: 30vh 30vh;
     grid-gap: 5px;
     grid-template-areas: "top top" "bottomLeft bottomRight";
     /*border: 10px solid blue;*/
