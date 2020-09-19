@@ -23,6 +23,12 @@ a{
     text-decoration: underline;
     text-shadow:  5px 5px 3px black;
 }
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .rob5{
     display: grid;
     width: 85vw;
