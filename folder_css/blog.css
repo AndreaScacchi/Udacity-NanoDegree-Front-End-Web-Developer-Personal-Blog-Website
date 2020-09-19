@@ -24,7 +24,7 @@ button{
     display: grid;
     width: 80vw;
     margin: auto;
-    grid-template-columns: 25vw 25vw;
+    grid-template-columns: 42vw 42vw;
     grid-template-rows: 80vh 80vh;
     grid-gap: 55px;
     grid-template-areas: "top top";
