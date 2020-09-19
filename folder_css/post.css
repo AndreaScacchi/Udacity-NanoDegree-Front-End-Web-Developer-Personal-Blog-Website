@@ -1,3 +1,6 @@
+@import "header2.css";
+@import "main.css";
+
 body{
     background-color: #370617;
     color: rgb(43, 147, 72);
@@ -5,8 +8,6 @@ body{
     font-family: italic;
 }
 
-@import "header2.css";
-@import "main.css";
 
 h6{
     text-align: center;
