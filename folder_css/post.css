@@ -1,123 +1,162 @@
-@import "header2.css";
-@import "main.css";
-@import "footer2.css";
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 
-body{
-    background-color: #370617;
-    color: rgb(43, 147, 72);
-    font-size: 12px;
-    font-family: italic;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Quattrocento', sans-serif;
+    background-image: url(rombo.png);
+    background-position: center;
+    background-size: cover;
+}
 
-h6{
+.ul li {
+    display: inline;
+    margin: 3em;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    color: #fff;
+}
+
+li a:hover {
+    color: #fff;
+    text-shadow: 0 0 7px rgb(255, 255, 255);
+
+}
+
+.ul li:hover {
+    color: #fff;
+    text-shadow: 0 0 7px rgb(255, 255, 255);
+}
+
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
     text-align: center;
-    font-family: cursive;
-    color: #000000;
-    text-decoration: underline rgb(43, 147, 72);
-    text-shadow: 2px 2px 5px rgb(43, 147, 72);
-    font-size: 14px;
-}
-a{
-    color: orange;
-    text-decoration: underline;
-    text-shadow:  5px 5px 3px black;
-}
-.avatar{
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-.rob5{
-    display: grid;
-    width: 85vw;
-    margin: 30px 50px 55px;
-    grid-template-columns: 45vw 45vw;
-    grid-template-rows: 30vh 30vh;
-    grid-gap: 5px;
-    grid-template-areas: "top top" "bottomLeft bottomRight";
-    /*border: 10px solid blue;*/
-    justify-content: flex-start;
-}
-.rob4{
-    display: flex;
-    text-align: justify;
-    align-items: flex-start;
-    justify-content: center;
-    /*border: 5px solid red;*/
-    padding: 30px 40px 55px 85px;
-    font-size: 12px;
-    font-style: oblique;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-}
-#one{
-    grid-area: top;
-}
-#two{
-    grid-area: bottomLeft;
-}
-#three{
-    grid-area: bottomRight;
 }
 
-/*Medium Screen*/
-@media (min-width: 400px) and (max-width: 800px) {
-    body{
-        background-color: red;
-        font-style: normal;
-        font-family: monospace;
-        font-size: 13px;
-        text-align: justify;
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    font-family: 'Quattrocento', sans-serif;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    font-family: 'Quattrocento', sans-serif;
+}
+
+textarea {
+    height: 1.5em;
+    font-family: 'Quattrocento', sans-serif;
+}
+
+.submit {
+    height: 2em;
+    background-color: rgba(44, 39, 39, 0.459);
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #000;
+}
+
+.about h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.about p {
+    color: #fff;
+    text-align: center;
+    margin-top: 2em;
+    width: 55%;
+    margin-left: 22em;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
     }
-
-    h1, h2, h3{
-        color: #6a00f4;
-        font-style: oblique;
-        font-family: fantasy;
-        font-size: 15px;
-
-    }
-
-    .rob5{
-        background-color: white;
-        color: #03071e;
-        text-align: justify;
-    }
-
-    .rob4{
-        text-align: justify;
-        font-size: 8px;
-    }
 }
 
-/*Large Screen*/
-@media (min-width: 801px) {
-    body{
-        background-color: rgb(22, 105, 122);
-        font-size: 13px;
-        font-style: italic;
-        font-family: sans-serif;
-    }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 4em;
+    transition: all 0.3s;
+}
 
-    h1, h2, h3{
-        color: #000000;
-        font-size: 15px;
-    }
+.card:hover {
+    transform: scale(0.95);
+    background-color: #fff;
+    color: #000;
+}
 
-    .rob5{
-        background-color: #9e2a2b;
-        color: #e2eafc;
-    }
+p .fa {
+    font-size: 50px;
+}
 
-    .rob4{
-        text-align: left;
-        text-decoration: underline;
-        text-transform: capitalize;
-        text-decoration-color: black;
-        text-decoration-style: double;
-        font-size: 13px;
+footer {
+    margin-top: 4em;
+    color: #fff;
+}
 
-    }
+span {
+    color: rgb(5, 142, 221);
 }
