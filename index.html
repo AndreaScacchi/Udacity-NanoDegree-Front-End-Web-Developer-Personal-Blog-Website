@@ -2,41 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>My Blog</title>
+        <title>Tech Hub</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <!-- FUNDAMENTAL -->
-        <link rel="stylesheet" href="folder_css/blog.css" />
-        <link rel="stylesheet" href="folder_css/header.css" />
-        <link rel="stylesheet" href="folder_css/footer.css" />
+        <link rel="stylesheet" href="folder_css/blog.css">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Menu</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
+            <nav class="navbar">
+                <ul class="ul">
+                    <li>Home</li>
+                    <li><a href="services.html" target="_blank">Services</a></li>
+                    <li><a href="post.html" target="_blank">Contact</a></li>
+                </ul>
             </nav>
-            <section class="section1">
+            <div class="tech">
                 <h1><strong>Technological Future</strong></h1>
                 <p>
                     The world is changing, and changing fast. Over the years, technology has revolutionized our world and daily lives.<br />
@@ -45,59 +24,101 @@
                     computer.<br />
                     Technological innovation today represents the key for many areas, such as medicine, video surveillance, communication, tourism, research etc....<br />
                 </p>
-            </section>
+            </div>
         </header>
-        <div class="container">
-            <div class="box" id="one">
-                <section class="card">
-                    <blockquote cite="https://pixabay.com/it/">
-                        <figure>
-                            <img src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg" alt="Notebook" />
-                            <figcaption>Fig.1 - Notebook.</figcaption>
-                        </figure>
-                    </blockquote>
-                    <div class="card-body" id="tech">
-                        <h5 class="card-title">TECH SECTOR</h5>
-                        <p class="card-text"><em>An important reading about the use of technology in the future!</em></p>
-                        <a href="index.html">Go to post</a>
-                    </div>
-                </section>
+        <main>
+            <div class="main-div">
+                <h2>What about programming?</h2>
+                <p>
+                    Computer Programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task<br>
+                    Programming involves tasks such as: analysis, generating algorithms, profiling algorithms'accuracy and resource consumption, and the implementation of algorithms in a chosen programming language.<br>
+                    The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the centrall processing unit.<br>
+                    The purpose of programming is to find a sequence of instructions that will automate the performance of a task on a computer, often for solving a given problem.<br>
+                    Proficient programming thus often requires expertise is several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic.</p>
             </div>
-            <div class="box" id="two">
-                <section class="card">
-                    <blockquote cite="https://pixabay.com/it/">
-                        <figure>
-                            <img src="https://cdn.pixabay.com/photo/2016/03/06/22/06/mars-rover-1241266_1280.jpg" alt="Robot" />
-                            <figcaption>Fig.2 - Robot.</figcaption>
-                        </figure>
-                    </blockquote>
-                    <div class="card-body" id="robotic">
-                        <h5 class="card-title">ROBOTIC</h5>
-                        <p class="card-text"><em>Robotic is the future of many companies, and people, and this post is about its use!</em></p>
-                        <a href="post.html">Go to post</a>
-                    </div>
-                </section>
+            <div class="lang">
+                <h2>What about programming languages?</h2>
+                <p>
+                    A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.<br>
+                    Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages.<br>
+                    Thousands of different programming languages have been created, and more are being created every year. Mnay programming languages are written in an imperative form, while other languages use the delcarative form.<br>
+                    The description of a programming language is usually split into the two components of syntax and semantics. Some languages are defined by a specification document, while other languages have a dominant implementation that is treated as a reference.<br>
+                    Some languages have both, with the basic language defined by a standard and extensions taken from the dominant implementation being common.</p>
             </div>
-        </div>
-        <footer>
-            <section class="tech1">
-                <h3>Sign up to receive information regarding the tech sector!</h3>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" />
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit"><em>Sign up</em></button>
-                </form>
-            </section>
+            <div class="js">
+                <h2>Most popular programming languages</h2>
+                <p>There are many programming languages, several are emerging and other are incredibly renowned. Many of these languages are used in many fields and are really powerful.<br>Do you want become a Front-End Developer? Or do you want become a Software developer? Here are some extraordinary languages you can learn.</p>
+                <ol class="list">
+                    <li><strong id="strongJS">JavaScript</strong>: JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.<br>
+                        It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class function.<br>
+                        Alognside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications.<br>
+                        The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.
+                    </li>
+                    <hr>
+                    <li><strong id="strongPY">Python</strong>: Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.<br>
+                        Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.<br>
+                        Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.
+                    </li>
+                    <hr>
+                    <li><strong id="strongC">C</strong>: C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.<br>
+                        By design, C provides constructs that map efficiently to typical machine instructions. It has found lasting use in applications previously coded in assembly language.<br>
+                        Such applications include operating systems and various application software for computer architectures that range from supercomputers to PLCs and embedded systems.
+                    </li>
+                    <hr>
+                    <li><strong id="strongJA">Java</strong>: Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.<br>
+                        It is a general-purpose programming language intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.<br>
+                        Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them.
+                    </li>
+                    <hr>
+                    <li><strong id="strongSQL">SQL</strong>: SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables.<br>
+                        Originally based upon relational algebra and tuple relational calculus, SQL consists of many types of statements, which may be informally classed as sublanguages, commonly: a data query language (DQL), a data definition language (DDL), a data control language (DCL), and a data manipulation language (DML).
+                    </li>
+                    <hr>
+                    <li><strong id="strongCCC">C++</strong>: C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".<br>
+                        The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation.<br>
+                        It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.
+                    </li>
+                    <hr>
+                    <li><strong id="strongCC">C#</strong>: C# is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped,
+                    imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.<br>
+                    C# was developed around 2000 by Microsoft as part of its .NET initiative and later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO (ISO/IEC 23270) in 2003.
+                    </li>
+                    <hr>
+                    <li><strong id="strongGO">GO</strong>: GO is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.<br>
+                    Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency. The language is often referred to as Golang because of its domain name, golang.org, but the proper name is Go.<br>
+                    Go was designed at Google in 2007 to improve programming productivity in an era of multicore, networked machines and large codebases.
+                    </li>
+                </ol>
+            </div>
+        </main>
+        <form action="">
+            <div class="container">
+                <h1>Register</h1>
+                <p>Please fill in this form to create an account</p>
+                <br>
+
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                <label for="psw">Password</label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                <label for="psw-repeat">Repeat Password</label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+                <p>By creating an account you agree to our <a href="">Temrs & Privacy</a></p>
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
+            <div class="container signin">
+                <p>Already have an account? <a href="">Sign in</a></p>
+            </div>
+        </form>
+        <a href="#" id="button">Back to top</a>
+        <footer class="footer">
+            <p>&copy; Copyright 2021 <span>TechHub.com</span></p>
         </footer>
     </body>
 </html>
