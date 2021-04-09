@@ -2,89 +2,79 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>My Post</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1"> <!-- FUNDAMENTAL -->
+        <title>Tech Hub</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="folder_css/post.css">
-        <link rel="stylesheet" href="folder_css/header2.css">
-        <link rel="stylesheet" href="folder_css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">Menu</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar_toggler_icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Services
-                </a>
-              </li>
+          <nav class="navbar">
+            <ul class="ul">
+              <li><a href="index.html" target="_blank">Home</a></li>
+              <li><a href="services.html" target="_blank">Services</a></li>
+              <li>Contact</li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
+          </nav>
         </header>
         <main>
-        <section class="rob1">
-            <article>
-                    <h1>ROBOTIC</h1>
-        <blockquote cite="https://builtin.com/robotics">        <!--I copied just the text, not the code!-->
-                <h2>What is Robotic?</h2>
-                <p class="andrea">Robotic is the intersection of science, engineering and technology that produces machines, called robots, that substitute for (or replicate) human actions.<br>In 2005, 90% of all robots could be found assembling cars in automotive factories. These robots consist mainly of mechanical arms tasked with welding or screwing on certain parts of a car.<br>Today, we're seeing an evolved and expanded definition of robotics that includes the development, creation and use of bots that explore Earth's harshest conditions, robots that assist law-enforcement and even robots that assist in almost every facet of healtcare.</p>
-            </article>
-        </section>
-            <br>
-        <div class="rob2">
-            <h3>Types of robots</h3>
-            <p class="andrea">Mechanical bots come in all shapes and sizes to efficiently carry out the task for which they are designed. From the 0.2 millimeter-long "RobobBee" to the 200 meter-long robotic shipping vessel "Vindskip", robots are emerging to carry out tasks that humans simply can't.<br>Generally, there are five types of robots:</p>
-            <ol>
-                <li>Pre-Programmed Robots</li>
-                <li>Humandroid Robots</li>
-                <li>Autonomous Robots</li>
-                <li>Teleoperated Robots</li>
-                <li>Augmenting Robots</li>
-            </ol>
-        </div>
-        </blockquote>
+          <div class="contact-title">
+            <h1>Get in touch</h1>
+            <h2>Please fill in this form to get in touch</h2>
+          </div>
+          <div class="contact-form">
+            <form id="contact-form" action="">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              <br>
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              <br>
+              <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+              <br>
+              <input type="submit" class="form-control submit" value="Send Message">
+            </form>
+          </div>
+          <div class="about">
+            <h1>What about us?</h1>
+            <p>Born in 2015, Tech Hub is a forward-looking company focused on building products and solutions that are needed for the 21st century.<br>
+              As a global information and technology company, we connect decision makers to a dynamic network of data, people and ideas - accurately delivering business and financial information, news and insights to customers around the world.
+            </p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <p><i class="fa fa-user"></i></p>
+                <h3>25+</h3>
+                <p>Partners</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <p><i class="fa fa-check"></i></p>
+                <h3>2500+</h3>
+                <p>Projects</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <p><i class="fa fa-smile-o"></i></p>
+                <h3>750+</h3>
+                <p>Clients</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <p><i class="fa fa-coffee"></i></p>
+                <h3>2000+</h3>
+                <p>Meetings</p>
+              </div>
+            </div>
+          </div>
         </main>
-        <br>
-        <div class="rob5">
-            <div class="rob4" id="one">
-                <h3>What about the future?</h3>
-                <details>
-                    <summary><strong>Technology is the future!</strong></summary>
-                    <p>I think that the technology is fundamental to improve, to create new job opportunities, production opportunities, to help the people, etc..<br> So I hope that humans use the technology to produce, to help, to create, <strong><em>TO IMPROVE</em></strong>, but not to win a war!!</p>
-                </details>
-            </div>
-            <br>
-            <div class="rob4" id="two">
-                <img src="https://thumbs.dreamstime.com/b/ritratto-di-un-giovane-con-stile-capelli-e-della-barba-avatar-maschio-vettore-105082137.jpg" alt="Avatar" class="avatar"><h3>About the Author:</h3>
-                <details>
-                    <summary><strong>By Andrea Scacchi.<br>Last updated on September 17, 2020 13.00 PM.</strong></summary>
-                    <br>
-                    <p>My name is <em>Andrea Scacchi</em>, I'm from Rome, Italy, I'm 23 and I'm learning many things about the <strong>Front-End Web Development through Udacity NanoDegree Program.</strong><br>So this is my first project, I'm so happy, I'm improving day by day and I hope to become an excellent Web Developer.!<p>
-                </details>
-            </div>
-            <div class="rob4" id="three">
-                <h3>Share on:</h3>
-                <ol>
-                    <li><a href="https://github.com/AndreaScacchi/hello-world">GitHub</a></li>
-                    <li><a href="https://twitter.com/AndreaScacchi3">Twitter</a></li>
-                    <li><a href="https://twitter.com/AndreaScacchi3">Instagram</a></li>
-                </ol>
-            </div>
-        </div>
+        <footer class="footer">
+          <p>&copy; Copyright 2021 <span>TechHub.com</span></p>
+        </footer>
     </body>
 </html>
